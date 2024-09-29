@@ -1,0 +1,2 @@
+ALTER TABLE "Teacher" ADD CONSTRAINT "Teacher_student_id_chapter_id_pk" PRIMARY KEY("student_id","chapter_id");--> statement-breakpoint
+ALTER TABLE "TeacherChapter" ADD CONSTRAINT "TeacherChapter_student_id_chapter_id_chapter_id_pk" PRIMARY KEY("student_id","chapter_id","chapter_id");
